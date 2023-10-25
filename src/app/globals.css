@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Navigation */
+.nav-content{
+  @apply flex justify-between items-center bg-white w-full h-[88px] py-[20px] px-[120px] border-b-[1px] border-[#E9EAEF] gap-[10px] sticky top-0 z-[99999]
+}
+
+.menu-items{
+  @apply flex justify-center items-center gap-[32px]
+}
+
+.menu-item {
+  @apply py-[12px] px-[20px] gap-2.5 cursor-pointer
+}
+
+.menu-text {
+  @apply font-Roboto font-medium text-base tracking-[1.5%] hover:text-[#F95701]
+}
+
+.btn-outline-primary {
+  @apply border-[1px] border-[#F95701] rounded-[8px] py-[12px] px-[20px] gap-[10px] transition duration-500 ease-in-out
+}
+
+.btn-outline-primary-text{
+  @apply font-Roboto font-medium text-[14px] leading-[20px] text-[#F95701] hover:text-white hover:bg-[#F95701]
+}
+
+/* Hero Section */
+.hero-section-content{
+  @apply w-screen grid grid-cols-3 gap-4 gap-[40px] py-[20px] px-[120px]
+}
+
+.group1{
+  @apply col-span-2 w-full grid grid-rows-2 gap-4
+}
+
+.group1-content{
+  @apply w-full gap-[24px]
+}
+
+.group1-header{
+  @apply font-Teko font-[600] text-[64px] leading-[72px]
+}
+
+.group1-description{
+  @apply font-Roboto font-[400] text-[#6C707D] text-[20px] leading-[28px] tracking-[1.5%]
+}
+
+.btn-primary {
+  @apply w-[176px] h-[48px] bg-[#F95701] rounded-[8px] py-[10px] px-[40px] gap-[10px] transition duration-500 ease-in-out
+}
+
+.btn-primary-text{
+  @apply font-Roboto font-[500] text-[16px] leading-[16px] text-white hover:ring-4 hover:ring-[#f79365]  whitespace-nowrap
+}
+
+.group2{
+  @apply w-full
+}
+
+
+
